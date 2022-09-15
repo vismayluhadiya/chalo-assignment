@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Route 101",
+            "is_active": true,
+            "is_return": false,
+            "stops": [
+                {
+                    "id": 1,
+                    "name": "Mumbai",
+                    "latitude": "hdhdhhfh",
+                    "longitude": "hdhdfhhdf"
+                },
+                {
+                    "id": 2,
+                    "name": "Bangalore",
+                    "latitude": "hdhdhhfh",
+                    "longitude": "hdhdfhhdf"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Route 102",
+            "is_return": true,
+            "is_active": false,
+            "stops": [
+                {
+                    "id": 3,
+                    "name": "Jaipur",
+                    "latitude": "hdhdhhfh",
+                    "longitude": "hdhdfhhdf"
+                },
+                {
+                    "id": 4,
+                    "name": "Delhi",
+                    "latitude": "hdhdhhfh",
+                    "longitude": "hdhdfhhdf"
+                }
+            ]
+        }
+    ]
+}
