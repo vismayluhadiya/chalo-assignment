@@ -10,7 +10,7 @@ const Layout = ({ title }) => {
       <Box
         sx={{
           backgroundColor: "rgb(255, 255, 255)",
-          mt: "48px",
+          mt: "100px",
         }}
       >
         <Container fixed>

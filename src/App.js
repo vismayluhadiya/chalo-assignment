@@ -8,6 +8,7 @@ import { saveState, loadState } from "./helpers/storage";
 
 import modules from "./modules";
 import Containers from "./containers";
+import "./App.css";
 
 export const store = createStore(
   modules,
