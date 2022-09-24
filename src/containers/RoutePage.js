@@ -21,6 +21,7 @@ import { v4 as uuidv4 } from "uuid";
 import { useDispatch, useSelector } from "react-redux";
 import addRoute from "../modules/routes/actionCreators/addRoute";
 import editRoute from "../modules/routes/actionCreators/editRoute";
+import Map from "../components/TomTomMap";
 
 const initialValue = {
   name: "",
@@ -251,6 +252,22 @@ const RoutePage = () => {
             </CardActions>
           </Card>
         </Grid>
+        {!!routeId && !!routeDetails && !!routeDetails.stops && (
+          <Grid item xs={6} sx={{ my: 3 }}>
+            <Card>
+              <CardHeader title={routeDetails.name} />
+              <CardContent sx={{ height: "50vh" }}>
+                <Map
+                  stops={
+                    routeDetails.direction !== "up"
+                      ? routeDetails.stops.reverse()
+                      : routeDetails.stops
+                  }
+                />
+              </CardContent>
+            </Card>
+          </Grid>
+        )}
       </Grid>
     </>
   );
