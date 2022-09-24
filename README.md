@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##App is live on 
+## App is live on 
 https://chalo-assignment.onrender.com/
 
 Please copy paste the url in browser to view
