@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/chalo-assignment/static/css/main.624f05d4.css",
+    "main.js": "/chalo-assignment/static/js/main.0929769f.js",
+    "static/js/42.2bbaada8.chunk.js": "/chalo-assignment/static/js/42.2bbaada8.chunk.js",
+    "static/js/929.0c0e03f7.chunk.js": "/chalo-assignment/static/js/929.0c0e03f7.chunk.js",
+    "static/js/787.ed9e078b.chunk.js": "/chalo-assignment/static/js/787.ed9e078b.chunk.js",
+    "static/css/573.42e05e2e.chunk.css": "/chalo-assignment/static/css/573.42e05e2e.chunk.css",
+    "static/js/573.d2674b6e.chunk.js": "/chalo-assignment/static/js/573.d2674b6e.chunk.js",
+    "static/js/481.a1599e84.chunk.js": "/chalo-assignment/static/js/481.a1599e84.chunk.js",
+    "static/js/714.2461f225.chunk.js": "/chalo-assignment/static/js/714.2461f225.chunk.js",
+    "index.html": "/chalo-assignment/index.html",
+    "main.624f05d4.css.map": "/chalo-assignment/static/css/main.624f05d4.css.map",
+    "main.0929769f.js.map": "/chalo-assignment/static/js/main.0929769f.js.map",
+    "42.2bbaada8.chunk.js.map": "/chalo-assignment/static/js/42.2bbaada8.chunk.js.map",
+    "929.0c0e03f7.chunk.js.map": "/chalo-assignment/static/js/929.0c0e03f7.chunk.js.map",
+    "787.ed9e078b.chunk.js.map": "/chalo-assignment/static/js/787.ed9e078b.chunk.js.map",
+    "573.42e05e2e.chunk.css.map": "/chalo-assignment/static/css/573.42e05e2e.chunk.css.map",
+    "573.d2674b6e.chunk.js.map": "/chalo-assignment/static/js/573.d2674b6e.chunk.js.map",
+    "481.a1599e84.chunk.js.map": "/chalo-assignment/static/js/481.a1599e84.chunk.js.map",
+    "714.2461f225.chunk.js.map": "/chalo-assignment/static/js/714.2461f225.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.624f05d4.css",
+    "static/js/main.0929769f.js"
+  ]
+}
