@@ -20,7 +20,7 @@ import AirlineStopsIcon from "@mui/icons-material/AirlineStops";
 import get from "lodash/get";
 import Accordion from "../Accordion";
 
-const RouteCard = ({ details, onDeleteClick, onEditClick }) => {
+const RouteCard = ({ details, onDeleteClick, onEditClick, onViewMapClick }) => {
   return (
     <Card
       sx={{
@@ -39,7 +39,7 @@ const RouteCard = ({ details, onDeleteClick, onEditClick }) => {
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <Typography variant="h5">
             {get(details, "stops[0].name")}
-            {!get(details, "direction") === "up" ? (
+            {get(details, "direction") === "up" ? (
               <EastIcon
                 sx={{ verticalAlign: "sub", color: "ThreeDHighlight" }}
               />
@@ -108,9 +108,16 @@ const RouteCard = ({ details, onDeleteClick, onEditClick }) => {
             </Button>
           </Grid>
           <Grid item xs={4} sx={{ textAlign: "end" }}>
-            <Button variant="contained" size="small" color="secondary">
-              View on Map
-            </Button>
+            {typeof onViewMapClick === "function" && (
+              <Button
+                onClick={() => onViewMapClick(details.id)}
+                variant="contained"
+                size="small"
+                color="secondary"
+              >
+                View on Map
+              </Button>
+            )}
           </Grid>
         </Grid>
       </CardActions>
