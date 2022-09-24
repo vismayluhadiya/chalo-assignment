@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ##App is live on 
 https://chalo-assignment.onrender.com/
 
-Please copy pase the url in browser to view
+Please copy paste the url in browser to view
 
 ## Available Scripts
 
